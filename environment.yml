@@ -1,0 +1,25 @@
+name: rocky
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - requests
+  - sentence-transformers
+  - pip:
+    - llama-index
+    - llama-index-readers-notion 
+    - llama-index-vector-stores-chroma
+    - chromadb
+    - streamlit
+    - tornado
+    - watchdog
+    - openai-whisper
+    - torch
+    - torchaudio
+    - numpy
+    - gTTS 
+    - pyttsx3
+prefix: /Users/ege.yumlu/anaconda3/envs/rocky

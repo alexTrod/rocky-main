@@ -1,0 +1,7 @@
+.env
+__pycache__
+llm_cache/
+audio_tests/
+output_audio/
+input_audio/
+os.,/
